@@ -1,0 +1,49 @@
+{
+	"name": "@mm-works/prjno",
+	"version": "1.0.0",
+	"description": "$desc",
+	"scripts": {
+		"test": "gulp test",
+		"schedule": "npm run compile && mm-schedule",
+		"clean": "del-cli ./dist/",
+		"lint": "eslint ./src/**/*.ts",
+		"compile": "tsc",
+		"build": "npm run clean && npm run lint && npm run compile && gulp",
+		"up": "git pull git@github.com:mm-core/base.git prj-tpl",
+		"sync": "git pull git@github.com:mm-tpl/serve.git master"
+	},
+	"homepage": "https://mm-works.github.io",
+	"license": "MIT",
+	"dependencies": {
+		"@mmstudio/an000001": "1.0.202004161822",
+		"@mmstudio/an000002": "1.0.202004170748",
+		"@mmstudio/an000003": "1.0.202004170749",
+		"@mmstudio/an000004": "1.0.202004170750",
+		"@mmstudio/an000005": "1.0.202004170808",
+		"@mmstudio/an000006": "1.0.202005300909",
+		"@mmstudio/an000007": "1.0.202004170753",
+		"@mmstudio/an000014": "1.0.202010211513",
+		"@mmstudio/config": "1.0.202004161715",
+		"@mmstudio/global": "1.0.202004161717",
+		"@mmstudio/on": "1.0.202004161718",
+		"@mmstudio/schedule": "1.0.202004171021",
+		"@mmstudio/server": "1.0.202005312012",
+		"log4js": "6.3.0",
+		"minio": "7.0.16"
+	},
+	"devDependencies": {
+		"@types/minio": "latest",
+		"@types/uuid": "latest",
+		"@types/xml2js": "latest",
+		"@typescript-eslint/eslint-plugin": "latest",
+		"@typescript-eslint/parser": "latest",
+		"del-cli": "latest",
+		"eslint": "latest",
+		"eslint-config-prettier": "latest",
+		"eslint-plugin-import": "latest",
+		"gulp": "latest",
+		"gulp-shell": "latest",
+		"gulp-uglify-es": "latest",
+		"typescript": "latest"
+	}
+}
