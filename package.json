@@ -8,9 +8,7 @@
 		"clean": "del-cli ./dist/",
 		"lint": "eslint ./src/**/*.ts",
 		"compile": "tsc",
-		"build": "npm run clean && npm run lint && npm run compile && gulp",
-		"up": "git pull git@github.com:mm-core/base.git prj-tpl",
-		"sync": "git pull git@github.com:mm-tpl/serve.git master"
+		"build": "npm run clean && npm run lint && npm run compile && gulp"
 	},
 	"homepage": "https://mm-works.github.io",
 	"license": "MIT",
