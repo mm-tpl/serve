@@ -13,16 +13,17 @@
 	"homepage": "https://mm-works.github.io",
 	"license": "MIT",
 	"dependencies": {
-		"@mmstudio/an000001": "1.0.202004161822",
+		"@mmstudio/an000001": "2.0.0",
 		"@mmstudio/an000004": "1.0.202004170750",
 		"@mmstudio/an000014": "1.0.202010211513",
-		"@mmstudio/config": "1.0.202004161715",
-		"@mmstudio/global": "1.0.202004161717",
+		"@mmstudio/config": "2.0.1",
+		"@mmstudio/global": "1.1.0",
 		"@mmstudio/on": "1.0.202004161718",
-		"@mmstudio/schedule": "1.0.202004171021",
-		"@mmstudio/server": "1.0.202011271712",
+		"@mmstudio/schedule": "1.1.0",
+		"@mmstudio/server": "1.1.0",
+		"anylogger": "^1.0.9",
 		"log4js": "6.3.0",
-		"minio": "7.0.17"
+		"minio": "7.0.18"
 	},
 	"devDependencies": {
 		"@types/minio": "latest",
